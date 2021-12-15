@@ -139,7 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Funcion multiplica.cpp" />
+    <ClCompile Include="..\..\FunciondeResta.cpp" />
+    <ClCompile Include="..\..\FuncionSuma.cpp" />
     <ClCompile Include="ProyectoF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ProyectoF.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
