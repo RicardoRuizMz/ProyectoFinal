@@ -5,14 +5,13 @@
 #include <stdio.h>
 using namespace std;
 
-int main(int argc, char *argv[])
+int resta(int Num1, int num2)
 {
-	int Num1, num2, resta;
-	Num1 = 2;
-	num2 = 2;
+	int resta;
+	
 	resta = Num1 - num2;
-	cout << "El resultado es: " << resta;
-	return 0;
+	cout << "El resultado de la resta es: " << resta;
+	return resta;
    
 }
 
